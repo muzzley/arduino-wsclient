@@ -1,4 +1,4 @@
-Arduino Websocket CLient
+Arduino Websocket Client
 ========================
 
 
