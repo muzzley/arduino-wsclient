@@ -119,7 +119,6 @@ bool WSClient::handshake(char* host, char* path){
    base64Encode(bytes, 16, buffer, 45);
   _socket.println(buffer);
   _socket.println("");
-  _socket.println("");
    
   while(_socket.available() == 0 && attempts < maxAttempts){
     delay(100);
